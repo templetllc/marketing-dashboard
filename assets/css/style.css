@@ -38,6 +38,7 @@ li, span, a, p, select, .txt {
 
 .content.container-fluid {
     background-color: #FAFAFA;
+    min-height: 96vh;
 }
 
 .page-header-title {
@@ -591,6 +592,19 @@ tr {
 }
 .btn-inactivo {
     border: none !important;
+}
+.email-item {
+    cursor: pointer;
+    overflow: hidden;
+    height: 300px;
+}
+.border-normal {
+    border: 1px solid #eff0f7;
+    border-radius: 6px;
+}
+.sticky-bar-stats {
+    position: sticky !important;
+    top: 75px;
 }
 
 .square {

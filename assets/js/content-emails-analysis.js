@@ -46,10 +46,11 @@ $(function(){
         let accordion_combined = $('#send-combined').find('.accordion-button');
         let target_combined = accordion_combined.attr('data-bs-target');
 
+        accordion_combined.prop('disabled', true);
+        accordion_combined.addClass('collapsed');
+        $(target_combined).removeClass('show');
+
         if($('.emails-container .btn-activo').length == 0){
-            accordion_combined.prop('disabled', true);
-            accordion_combined.addClass('collapsed');
-            $(target_combined).removeClass('show');
             $('.btn-calculate').prop('disabled', true);
         } else {
             $('.btn-calculate').prop('disabled', false);

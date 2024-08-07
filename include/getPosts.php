@@ -46,11 +46,6 @@ foreach ($response['postList'] as $key => $post) {
 
 //Obtain distinct Platform name
 foreach ($postList as $key => $post) {
-    //~~~~~~~~~~~~~~~~~~~~~~~quitamos los posts de FACEBOOK~~~~~~~~~~~~~~~~~~~~~~~~
-    if($post['platform']=="facebook"){
-        continue;
-    }
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     $selected = 0;
     if($platformFilter == $post['platform']){
         $selected = 1;
@@ -95,14 +90,6 @@ $type_color = array('border-img-red-dark', 'border-img-purple-light', 'border-im
 $bg_color = array('bg-red-dark', 'bg-purple-light', 'bg-purple', 'bg-yellow', '', '');
 foreach ($platforms_type as $key => $row) {
     
-    //~~~~~~~~~~~~~~~~~~~~~~~quitamos los posts de FACEBOOK~~~~~~~~~~~~~~~~~~~~~~~~
-    
-    if($row['platform']=="facebook"){
-        continue;
-    }
-    
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    
     $html = '<div class="d-inline-flex align-items-center">';
     $html .= '    <div><span class="legend-indicator d-flex '.$bg_color[$key].'"></span></div>';
     $html .= '    <div><p class="mb-0 me-3 fw-bold">'.$row['platform'].'</p></div>';
@@ -121,14 +108,6 @@ $platforms_type = $platforms_type_aux;
 //Obtain emails data
 $content = "";
 foreach ($postList as $key => $post) {
-    
-    //~~~~~~~~~~~~~~~~~~~~~~~quitamos los posts de FACEBOOK~~~~~~~~~~~~~~~~~~~~~~~~
-    
-    if($post['platform']=="facebook"){
-        continue;
-    }
-    
-    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
     $border_color = '';
     foreach ($platforms_type as $key => $type){
@@ -149,7 +128,7 @@ foreach ($postList as $key => $post) {
     };
     $content .= '      </div>';
     $content .= '      <div class="btn-img post-item" data-post_id="'.$post['post_id'].'">';
-    $content .= '          <img src="'.$post['thumbnail'].'" alt="" class="img-fluid border-0 '.$border_color.'">';
+    $content .= '          <img src="./assets/img/content-analysis-social-media/'.$post['thumbnail'].'" alt="" class="img-fluid border-0 '.$border_color.'">';
     $content .= '      </div>';
     $content .= '  </div>';
     $content .= '</div>';
@@ -162,15 +141,6 @@ foreach ($postList as $key => $post) {
         'performance' => $post['performance']
     );
 }
-
-//~~~~~~~~~~~~~~~~~~~~~~~quitamos los posts de FACEBOOK~~~~~~~~~~~~~~~~~~~~~~~~
-$filtered_posts = array_filter($posts, function($obj){
-    if ($obj->platform == "facebook") return false;
-    return true;
-});
-//$filtered_posts = [];
-$posts = $filtered_posts;
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 $data = array(
     'platforms' => $platforms,
