@@ -1,0 +1,130 @@
+<aside class="js-navbar-vertical-aside navbar navbar-vertical-aside navbar-vertical navbar-vertical-fixed navbar-expand-xl navbar-bordered bg-white  ">
+    <div class="navbar-vertical-container">
+        <div class="navbar-vertical-footer-offset">
+            <!-- Logo -->
+            <a class="navbar-brand" href="./index.php" aria-label="Front">
+                <img class="navbar-brand-logo" src="./assets/img/logo-Liberty-Networks.svg" alt="Logo" data-hs-theme-appearance="default">
+                <img class="navbar-brand-logo" src="./assets/img/logo-Liberty-Networks.svg" alt="Logo" data-hs-theme-appearance="dark">
+                <img class="navbar-brand-logo-mini" src="./assets/img/logo-Liberty-Networks-short.svg" alt="Logo" data-hs-theme-appearance="default">
+                <img class="navbar-brand-logo-mini" src="./assets/img/logo-Liberty-Networks-short.svg" alt="Logo" data-hs-theme-appearance="dark">
+            </a>
+            <!-- End Logo -->
+
+            <!-- Navbar Vertical Toggle -->
+            <button type="button" class="js-navbar-vertical-aside-toggle-invoker navbar-aside-toggler">
+                <i class="bi-arrow-bar-left navbar-toggler-short-align" data-bs-template='<div class="tooltip d-none d-md-block" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>' data-bs-toggle="tooltip" data-bs-placement="right" title="Collapse"></i>
+                <i class="bi-arrow-bar-right navbar-toggler-full-align" data-bs-template='<div class="tooltip d-none d-md-block" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>' data-bs-toggle="tooltip" data-bs-placement="right" title="Expand"></i>
+            </button>
+            <!-- End Navbar Vertical Toggle -->
+
+            <!-- Content -->
+            <div class="navbar-vertical-content pt-5">
+                <div id="navbarVerticalMenu" class="nav nav-pills nav-vertical card-navbar-nav">
+
+                    <div class="nav-item">
+                        <a class="nav-link" href="./index.php" data-placement="left">
+                            <img src="./assets/img/icos/ico-campaign-tracker.svg" alt="" class="nav-ico">
+                            <span class="nav-link-title">Campaign tracker</span>
+                        </a>
+                    </div>
+
+                    <div class="nav-item">
+                        <a class="nav-link" href="./content-creation.php" data-placement="left">
+                            <img src="./assets/img/icos/ico-content-creation.svg" alt="" class="nav-ico">
+                            <span class="nav-link-title">Content Creation</span>
+                        </a>
+                    </div>
+
+                    <!-- Collapse -->
+                    <div class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesContentDistribution" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesContentDistribution" aria-expanded="false" aria-controls="navbarVerticalMenuPagesContentDistribution">
+                            <img src="./assets/img/icos/ico-content-distribution.svg" alt="" class="nav-ico">
+                            <span class="nav-link-title">Content Distribution</span>
+                        </a>
+
+                        <div id="navbarVerticalMenuPagesContentDistribution" class="nav-collapse collapse" data-bs-parent="#navbarVerticalMenu">
+
+                            <div id="navbarVerticalMenuPagesContentDistributionMenu">
+                                <!-- Collapse -->
+                                <div class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesEmail" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEmail" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEmail">
+                                        Email
+                                    </a>
+
+                                    <div id="navbarVerticalMenuPagesEmail" class="nav-collapse collapse" data-bs-parent="#navbarVerticalMenuPagesContentDistributionMenu">
+                                        <a class="nav-link " href="./content-distribution-emails.php">Channel Engagement</a>
+                                        <!-- <a class="nav-link " href="#">Overall Performance</a> -->
+                                        <a class="nav-link" href="./content-distribution-emails-content-analysis.php">Content Analysis</a>
+                                        <!-- <a class="nav-link " href="./content-distribution-emails-content-calendar.html">Content Calendar</a> -->
+                                    </div>
+                                </div>
+                                <!-- End Collapse -->
+                      
+                                <!-- Collapse -->
+                                <div class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesSocialMedia" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesSocialMedia" aria-expanded="false" aria-controls="navbarVerticalMenuPagesSocialMedia">
+                                        Social media
+                                    </a>
+
+                                    <div id="navbarVerticalMenuPagesSocialMedia" class="nav-collapse collapse" data-bs-parent="#navbarVerticalMenuPagesContentDistributionMenu">
+                                        <a class="nav-link " href="./content-distribution-social-media.php">Channel Engagement</a>
+                                        <!-- <a class="nav-link " href="#">Overall Performance</a> -->
+                                        <a class="nav-link " href="./content-distribution-social-media-content-analysis.php">Content Analysis</a>
+                                        <!-- <a class="nav-link " href="./content-distribution-social-media-content-calendar.html">Content Calendar</a> -->
+                                    </div>
+                                </div>
+                                <!-- End Collapse -->
+                      
+                                <!-- Collapse -->
+                                <div class="nav-item">
+                                    <!-- <a class="nav-link " href="./content-distribution-website.html">Website</a> -->
+                                </div>
+                                <!-- End Collapse -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Collapse -->
+
+                    <!-- Collapse -->
+                    <div class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesMarketActivations" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesMarketActivations" aria-expanded="false" aria-controls="navbarVerticalMenuPagesMarketActivations">
+                            <img src="./assets/img/icos/ico-market-activations.svg" alt="" class="nav-ico">
+                            <span class="nav-link-title">Market Activations</span>
+                        </a>
+
+                        <div id="navbarVerticalMenuPagesMarketActivations" class="nav-collapse collapse" data-bs-parent="#navbarVerticalMenu">
+
+                            <div id="navbarVerticalMenuPagesMarketActivationsMenu">
+                                <!-- Collapse -->
+                                <div class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesHostedEvents" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesHostedEvents" aria-expanded="false" aria-controls="navbarVerticalMenuPagesHostedEvents">
+                                        Hosted events
+                                    </a>
+
+                                    <div id="navbarVerticalMenuPagesHostedEvents" class="nav-collapse collapse" data-bs-parent="#navbarVerticalMenuPagesMarketActivationsMenu">
+                                        <a class="nav-link" href="./market-activations-hosted-events-event-performance.php">Event performance</a>
+                                        <a class="nav-link" href="./market-activations-hosted-events-event-schedule.php">Event schedule</a>
+                                    </div>
+                                </div>
+                                <!-- End Collapse -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Collapse -->
+
+                    <!-- Collapse -->
+                    <div id="navbarVerticalMenuPagesMenu">
+                        <div class="nav-item">
+                            <a class="nav-link " href="./business-results.php" data-placement="left">
+                                <img src="./assets/img/icos/ico-business-results.svg" alt="" class="nav-ico">
+                                <span class="nav-link-title">Business results</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Collapse -->
+                </div>
+            </div>
+            <!-- End Content -->
+        </div>
+    </div>
+</aside>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.204" height="33.656" viewBox="0 0 41.204 33.656">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2" data-name="Path 2" d="M75.268,17.132a.931.931,0,0,0-.931.931V33.271a.8.8,0,0,0,.8.8h5.636a.8.8,0,0,0,.8-.8V27.758l6.092,5.913c-.851-6.928-2.392-16.538-6.092-16.538Z" transform="translate(-74.337 -17.132)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.456" y1="1.541" x2="-0.447" y2="1.541" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f80"/>
+      <stop offset="0.178" stop-color="#f80"/>
+      <stop offset="0.766" stop-color="#ffaf00"/>
+      <stop offset="1" stop-color="#ffaf00"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Path_3" data-name="Path 3" d="M.931.386A.931.931,0,0,0,0,1.317V23.3a.931.931,0,0,0,.932.931h6.3V1.317A.931.931,0,0,0,6.3.386Z" transform="translate(0 -0.386)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="1.419" x2="0.026" y2="1.419" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6000"/>
+      <stop offset="0.37" stop-color="#ff6000"/>
+      <stop offset="0.695" stop-color="#ff7200"/>
+      <stop offset="1" stop-color="#f80"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <path id="Path_5" data-name="Path 5" d="M153.9,55.578a.931.931,0,0,0-.931.931V71.628l-6.85-6.649c.689,5.609,3.694,14.01,7.712,14.01h5.438a.931.931,0,0,0,.931-.931V56.51a.931.931,0,0,0-.931-.931Z" transform="translate(-146.122 -55.578)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-0.809" y1="1.117" x2="-0.801" y2="1.117" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7400"/>
+      <stop offset="0.255" stop-color="#ff8700"/>
+      <stop offset="0.677" stop-color="#ffaf00"/>
+      <stop offset="1" stop-color="#ffaf00"/>
+    </linearGradient>
+    <clipPath id="clip-path-4">
+      <path id="Path_6" data-name="Path 6" d="M38.964,128.882c0,6.266,5.96,7.227,12.865,7.226a.933.933,0,0,0,.933-.932v-5.5a.793.793,0,0,0-.794-.793Z" transform="translate(-38.964 -128.882)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-0.892" y1="0.923" x2="-0.873" y2="0.923" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6000"/>
+      <stop offset="0.336" stop-color="#ff6000"/>
+      <stop offset="0.592" stop-color="#ff7400"/>
+      <stop offset="0.796" stop-color="#f80"/>
+      <stop offset="1" stop-color="#f80"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1534" data-name="Group 1534" transform="translate(0 -0.072)">
+    <g id="Group_4" data-name="Group 4" transform="translate(13.798 3.18)">
+      <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path)">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="21.398" height="21.398" transform="translate(-8.468 8.468) rotate(-45)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(0 0.072)">
+      <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="7.232" height="23.85" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(27.122 10.316)">
+      <g id="Group_9" data-name="Group 9" clip-path="url(#clip-path-3)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="26.108" height="19.291" transform="translate(-5.456 22.062) rotate(-76.109)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(7.232 23.922)">
+      <g id="Group_11" data-name="Group 11" clip-path="url(#clip-path-4)">
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="10.154" height="15.073" transform="translate(-1.589 6.859) rotate(-76.957)" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_1540" data-name="Group 1540" transform="translate(-1004 -578)">
+    <rect id="Rectangle_594" data-name="Rectangle 594" width="60" height="60" rx="10" transform="translate(1004 578)" fill="#ffaf00"/>
+    <g id="simbolo-de-interfaz-grafica-de-tres-barras" transform="translate(950.205 591.778)">
+      <g id="_x35__34_" transform="translate(70.615)">
+        <g id="Group_1355" data-name="Group 1355" transform="translate(0)">
+          <path id="Path_2471" data-name="Path 2471" d="M74.671,9.125H72.643a2.028,2.028,0,0,0-2.028,2.028V30.417a2.027,2.027,0,0,0,2.028,2.028h2.028A2.027,2.027,0,0,0,76.7,30.417V11.153A2.027,2.027,0,0,0,74.671,9.125ZM84.81,0H82.782a2.027,2.027,0,0,0-2.028,2.028V30.417a2.027,2.027,0,0,0,2.028,2.028H84.81a2.027,2.027,0,0,0,2.028-2.028V2.028A2.027,2.027,0,0,0,84.81,0ZM94.949,16.222H92.921a2.027,2.027,0,0,0-2.028,2.028V30.417a2.027,2.027,0,0,0,2.028,2.028h2.028a2.027,2.027,0,0,0,2.028-2.028V18.25A2.027,2.027,0,0,0,94.949,16.222Z" transform="translate(-70.615)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

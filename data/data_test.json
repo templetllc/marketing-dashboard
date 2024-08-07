@@ -1,0 +1,66 @@
+[
+    {
+        "client": "Frontier",
+        "colors": "#141928;#2C303E;#8A8C94;#96FFF5;#F3F4F4;#FF0037;#FFFFFF"
+    },
+    {
+        "client": "Templet",
+        "colors": "#000000;#00FF91;#05C46B;#07DD87;#224853;#2D6071;#39D26F;#414042;#58595B;#5DEC9A;#808285;#FFFFFF"
+    },
+    {
+        "client": "Calix",
+        "colors": "#0b38db;#333333;#808080;#CCCCCC;#FF7600;#FFFFFF"
+    },
+    {
+        "client": "Flow-Business Año",
+        "colors": "#0085CA;#012169;#1A2352;#2B6DAD;#3D6586;#63666A;#BBBCBC;#CF7C0C;#F1B143;#FFFFFF"
+    },
+    {
+        "client": "CW-Business Enviadó",
+        "colors": "#000000;#009BDB;#0F4DBC;#2526A9;#331C54;#333333;#494B4D;#4F2D7F;#A44DC4;#D10074"
+    },
+    {
+        "client": "demo Carácter",
+        "colors": "#00FF91;#05C46B;#07DD87"
+    },
+    {
+        "client": "Orchest",
+        "colors": "#010910;#02B3FD;#454545;#5854B1;#C5C5C5;#FFFFFF"
+    },
+    {
+        "client": "CaroEspinal",
+        "colors": "#26195D;#F4D263;#FF5490;#FFB9D7;#FFEFEB;#FFFFFF"
+    },
+    {
+        "client": "Fireminds",
+        "colors": "#000000;#4092C6;#6C6F70;#FFFFFF"
+    },
+    {
+        "client": "GTT",
+        "colors": "#005EAD;#172B53;#231F20;#333333;#808080;#DAD9D9;#FF8300;#FFFFFF"
+    },
+    {
+        "client": "Logic",
+        "colors": "#00BA50;#23C8FA;#5528AA;#55D2AA;#D21B69;#FF6A24;#FF85A8;#FFC832;#FFFFFF"
+    },
+    {
+        "client": "MCL",
+        "colors": "#000000;#333333;#F8F9FA;#FF0000;#FFFFFF"
+    },
+    {
+        "client": "One-Business",
+        "colors": "#004353;#006A84;#31AFC8;#3A004C;#4B4549;#5E007A;#8118CC;#E9F7F8"
+    },
+    {
+        "client": "Viya",
+        "colors": "#0098BA;#707173;#EC6710;#FFFFFF"
+    },
+    {
+        "client": "Ingram",
+        "colors": "#000000;#0077D4;#333333;#F8F9FA;#FFFFFF"
+    },
+    {
+        "client": "Liberty-Networks",
+        "colors": "#351979;#5E2F92;#8C58FF;#FF6000;#FF8800;#FFAF00;#FFFFFF;#000000"
+    }
+]

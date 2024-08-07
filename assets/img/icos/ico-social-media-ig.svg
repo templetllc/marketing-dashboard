@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_1536" data-name="Group 1536" transform="translate(-566 -962)">
+    <rect id="Rectangle_592" data-name="Rectangle 592" width="60" height="60" rx="10" transform="translate(566 962)" fill="#5e2f92"/>
+    <g id="instagram" transform="translate(577.995 974)">
+      <g id="Group_1339" data-name="Group 1339" transform="translate(0.005)">
+        <g id="Group_1338" data-name="Group 1338" transform="translate(0)">
+          <path id="Path_2469" data-name="Path 2469" d="M27.005,0H9a9.027,9.027,0,0,0-9,9V27a9.028,9.028,0,0,0,9,9h18a9.028,9.028,0,0,0,9-9V9A9.027,9.027,0,0,0,27.005,0Zm6,27a6.007,6.007,0,0,1-6,6h-18a6.007,6.007,0,0,1-6-6V9a6.007,6.007,0,0,1,6-6h18a6.006,6.006,0,0,1,6,6V27Z" transform="translate(-0.005)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_1341" data-name="Group 1341" transform="translate(25.506 6)">
+        <g id="Group_1340" data-name="Group 1340">
+          <circle id="Ellipse_248" data-name="Ellipse 248" cx="2.25" cy="2.25" r="2.25" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_1343" data-name="Group 1343" transform="translate(9.005 9)">
+        <g id="Group_1342" data-name="Group 1342">
+          <path id="Path_2470" data-name="Path 2470" d="M111.4,102.4a9,9,0,1,0,9,9A9,9,0,0,0,111.4,102.4Zm0,15a6,6,0,1,1,6-6A6,6,0,0,1,111.4,117.4Z" transform="translate(-102.405 -102.4)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
